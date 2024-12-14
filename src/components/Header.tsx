@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="navbar sticky top-0 w-full bg-amber-50 p-2 shadow-sm sm:p-4 md:shadow-md">
+    <header className="navbar sticky top-0 bg-amber-50 p-2 shadow-sm sm:p-4 md:shadow-md">
       <div className="flex-none md:hidden">
         <button className="btn btn-square btn-ghost">
           <svg
