@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { cn } from '../../libs/util';
+import { cn } from '../../utils/util';
 
 const Section = ({
   children,
