@@ -5,7 +5,7 @@ import Solution from '../components/Solution';
 
 const HomePage = () => {
   return (
-    <main className="flex-grow bg-amber-50 p-4">
+    <main className="flex-grow bg-amber-50 p-3 sm:p-4 md:p-6 xl:p-10">
       <About />
       <Problem />
       <Problem />

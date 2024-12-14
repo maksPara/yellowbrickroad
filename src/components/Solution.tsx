@@ -1,14 +1,15 @@
 import Heading from './ui/Heading';
+import Section from './ui/Section';
 
 const Solution = () => {
   return (
-    <section className="mt-20 p-4">
+    <Section>
       <Heading text="SOLUTION" />
       <ul className="steps steps-vertical sm:steps-horizontal w-full">
         <li className="step step-primary">
           <p>FIND</p>
           <span>
-            Discover top talent through networking and targeted headhunting FIND
+            Discover top talent through networking and targeted headhunting
           </span>
         </li>
         <li className="step">
@@ -16,7 +17,6 @@ const Solution = () => {
           <span>
             Conduct in-depth evaluations of candidate alignment with startup
             stages, from 0 to 1, MVP development, Series A, B, and beyond
-            EVALUATE
           </span>
         </li>
         <li className="step">
@@ -24,11 +24,11 @@ const Solution = () => {
           <span>
             The right people, who can make all difference - those who take
             ownership, work independently, and truly understand the business and
-            product HIRE
+            product
           </span>
         </li>
       </ul>
-    </section>
+    </Section>
   );
 };
 

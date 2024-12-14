@@ -1,8 +1,9 @@
 import Heading from './ui/Heading';
+import Section from './ui/Section';
 
 const Problem = () => {
   return (
-    <section className="mt-20 p-4">
+    <Section>
       <Heading text="PROBLEM" />
       <p className="text-2xl sm:text-3xl">
         Founders and CTOs have a lot on their plates
@@ -18,7 +19,7 @@ const Problem = () => {
         those who take ownership, work independently, and truly understand the
         business and product — is no small task.
       </p>
-    </section>
+    </Section>
   );
 };
 
