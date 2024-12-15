@@ -1,3 +1,5 @@
+import logo from './../assets/img/logo.webp';
+
 const About = () => {
   return (
     <section
@@ -5,7 +7,7 @@ const About = () => {
       id="about"
     >
       <img
-        src="/src/assets/img/logo.webp"
+        src={logo}
         alt="Yellow Brick Road logo"
         className="border-primary size-2/3 max-w-xl rounded-full border-4 p-0.5 md:size-2/5 md:p-1"
       />
