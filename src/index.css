@@ -4,3 +4,25 @@
 
 @layer base {
 }
+
+html {
+  @screen sm {
+    font-size: 17px;
+  }
+
+  @screen md {
+    font-size: 18px;
+  }
+
+  @screen lg {
+    font-size: 19px;
+  }
+
+  @screen xl {
+    font-size: 20px;
+  }
+
+  @screen 2xl {
+    font-size: 21px;
+  }
+}
