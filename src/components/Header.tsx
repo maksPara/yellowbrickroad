@@ -1,7 +1,7 @@
 const Header = () => {
   return (
-    <header className="navbar sticky top-0 flex justify-center bg-amber-50 p-2 shadow-sm sm:p-4 md:shadow-md">
-      <div className="w-full max-w-[1800px]">
+    <header className="navbar sticky top-0 flex justify-center bg-amber-50 p-1 shadow-sm md:shadow-md">
+      <div className="max-w-screen-3xl w-full">
         <div className="flex-none md:hidden">
           <button className="btn btn-square btn-ghost">
             <svg
@@ -20,19 +20,19 @@ const Header = () => {
           </button>
         </div>
         <nav className="hidden w-full md:flex md:justify-evenly">
-          <a className="btn btn-ghost text-xl lg:text-2xl" href="#about">
+          <a className="btn btn-ghost text-base" href="#about">
             About
           </a>
-          <a className="btn btn-ghost text-xl lg:text-2xl" href="#caseStudies">
+          <a className="btn btn-ghost text-base" href="#caseStudies">
             Case Studies
           </a>
-          <a className="btn btn-ghost text-xl lg:text-2xl" href="#testimonials">
+          <a className="btn btn-ghost text-base" href="#testimonials">
             Testimonials
           </a>
-          <a className="btn btn-ghost text-xl lg:text-2xl" href="#ourTeam">
+          <a className="btn btn-ghost text-base" href="#ourTeam">
             Our Team
           </a>
-          <a className="btn btn-ghost text-xl lg:text-2xl" href="#contact">
+          <a className="btn btn-ghost text-base" href="#contact">
             Contact
           </a>
         </nav>

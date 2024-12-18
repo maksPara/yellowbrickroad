@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
       },
+      maxWidth: {
+        'screen-3xl': '1700px',
+      },
     },
   },
   plugins: [require('daisyui')],

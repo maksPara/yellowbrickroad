@@ -5,17 +5,17 @@ const Problem = () => {
   return (
     <Section>
       <Heading text="PROBLEM" />
-      <p className="text-2xl sm:text-3xl">
+      <p className="bg-secondary text-primary mb-2 inline-block rounded-full p-2 px-4 text-center text-lg font-bold md:text-xl">
         Founders and CTOs have a lot on their plates
       </p>
-      <p className="text-xl sm:text-2xl">
+      <p className="mb-5 text-base md:text-lg">
         connecting business and tech, getting engineers to take ownership, and
         balancing value with cost.
       </p>
-      <p className="text-2xl sm:text-3xl">
+      <p className="bg-secondary text-primary inline-block rounded-full p-2 px-4 text-lg font-bold md:text-xl">
         Finding people who make their lives easier
       </p>
-      <p className="text-xl sm:text-2xl">
+      <p className="mb-5 text-base md:text-lg">
         those who take ownership, work independently, and truly understand the
         business and product — is no small task.
       </p>

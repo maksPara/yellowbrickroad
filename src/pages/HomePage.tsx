@@ -6,7 +6,7 @@ import Solution from '../components/Solution';
 const HomePage = () => {
   return (
     <div className="flex flex-col items-center">
-      <main className="max-w-[1800px] flex-grow bg-amber-50 p-3 sm:p-4 md:p-6 xl:p-10">
+      <main className="max-w-screen-3xl flex-grow bg-amber-50 p-3 sm:p-4 md:p-6 xl:p-10">
         <About />
         <Problem />
         <Problem />
