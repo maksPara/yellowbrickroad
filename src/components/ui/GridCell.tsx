@@ -12,11 +12,11 @@ const GridCell = ({
   primary = true,
 }: GridCellProps) => {
   return (
-    <div className="w-11/12 md:w-72">
+    <div className="md:w-76 w-11/12 sm:w-3/4">
       <p
         className={cn(
           primary ? 'bg-primary text-amber-50' : 'bg-secondary text-primary',
-          'p-2 text-center text-2xl font-bold',
+          'rounded p-2 text-center text-2xl font-bold',
         )}
       >
         {cellHeader}
