@@ -23,9 +23,9 @@ const Testimonials = () => {
             efforts. They have proven to be trustworthy, professional, and
             incredibly effective.
           </p>
-          <div className="mt-2 flex items-center justify-between">
+          <div className="mt-3 flex items-center justify-between">
             <div>
-              <p className="font-bold">Michał Skurowski</p>
+              <p className="pb-1 font-bold">Michał Skurowski</p>
               <p>Founder and CEO</p>
             </div>
             <div>
@@ -46,9 +46,9 @@ const Testimonials = () => {
             and the candidate's personality. This was valuable to me as it
             provided an additional perspective on the individual.
           </p>
-          <div className="mt-2 flex items-center justify-between">
+          <div className="mt-3 flex items-center justify-between">
             <div>
-              <p className="font-bold">Łukasz Rozbicki</p>
+              <p className="pb-1 font-bold">Łukasz Rozbicki</p>
               <p>Head of IT</p>
             </div>
             <div>
@@ -69,9 +69,9 @@ const Testimonials = () => {
             product and leadership positions was something that we really
             appreciated.
           </p>
-          <div className="mt-2 flex items-center justify-between">
+          <div className="mt-3 flex items-center justify-between">
             <div>
-              <p className="font-bold">Łukasz Górka</p>
+              <p className="pb-1 font-bold">Łukasz Górka</p>
               <p>Talent Acquisition Manager</p>
             </div>
             <div>
@@ -93,9 +93,9 @@ const Testimonials = () => {
             provided. Also the ability to consult on market trend issues outside
             of the project.
           </p>
-          <div className="mt-2 flex items-center justify-between">
+          <div className="mt-3 flex items-center justify-between">
             <div>
-              <p className="font-bold">Magda Paul</p>
+              <p className="pb-1 font-bold">Magda Paul</p>
               <p>Recruitment Manager</p>
             </div>
             <div>
@@ -112,9 +112,9 @@ const Testimonials = () => {
             of the IT labor market, straightforward and specific way of
             communication and also goal orientation.
           </p>
-          <div className="mt-2 flex items-center justify-between">
+          <div className="mt-3 flex items-center justify-between">
             <div>
-              <p className="font-bold">Katarzyna Koperniak</p>
+              <p className="pb-1 font-bold">Katarzyna Koperniak</p>
               <p>Talent Acquisition Manager</p>
             </div>
             <div>
@@ -132,9 +132,9 @@ const Testimonials = () => {
             straightforward and specific way of communication, goal orientation
             and also keeping me up to date.
           </p>
-          <div className="mt-2 flex items-center justify-between">
+          <div className="mt-3 flex items-center justify-between">
             <div>
-              <p className="font-bold">Weronika Eysymontt</p>
+              <p className="pb-1 font-bold">Weronika Eysymontt</p>
               <p>People and Culture Partner</p>
             </div>
             <div>
