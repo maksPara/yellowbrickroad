@@ -4,6 +4,7 @@ import OurNumbers from '../components/OurNumbers';
 import OurService from '../components/OurService';
 import Problem from '../components/Problem';
 import Solution from '../components/Solution';
+import Testimonials from '../components/Testimonials';
 import WayOfWork from '../components/WayOfWork';
 
 const HomePage = () => {
@@ -21,6 +22,7 @@ const HomePage = () => {
         <OurNumbers />
         <OurService />
         <WayOfWork />
+        <Testimonials />
       </main>
       <footer className="w-full" id="contact">
         <Contact />
