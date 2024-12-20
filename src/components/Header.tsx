@@ -4,7 +4,7 @@ const Header = () => {
   };
 
   return (
-    <header className="navbar sticky top-0 flex justify-center bg-amber-50 p-1 shadow-sm md:shadow-md">
+    <header className="navbar sticky top-0 z-10 flex justify-center bg-amber-50 p-1 shadow-sm md:shadow-md">
       <div className="max-w-screen-3xl w-full">
         <div className="flex-none md:hidden">
           <div className="drawer">
@@ -36,7 +36,7 @@ const Header = () => {
                 aria-label="close sidebar"
                 className="drawer-overlay"
               ></label>
-              <ul className="menu text-base-content min-h-full w-80 bg-amber-50 p-4">
+              <ul className="menu text-base-content min-h-full w-72 bg-amber-50 p-4">
                 {/* Sidebar content here */}
                 <li>
                   <a
