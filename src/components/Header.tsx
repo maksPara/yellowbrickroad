@@ -107,12 +107,12 @@ const Header = () => {
 
         <div
           className={cn(
-            'absolute right-0 flex flex-col p-2 md:hidden',
+            'absolute right-0 flex flex-col items-end p-2 md:hidden',
             isDrawerOpen ? '-z-10' : '',
           )}
         >
           <p>Let's talk</p>
-          <a href="tel:+48602108880" className="link font-bold sm:text-lg">
+          <a href="tel:+48602108880" className="link">
             +48 602 108 880
           </a>
         </div>
@@ -133,6 +133,14 @@ const Header = () => {
           </a>
           <a className="btn btn-ghost text-base" href="#contact">
             Contact
+          </a>
+
+          <a
+            className="btn btn-ghost flex flex-col flex-nowrap items-end gap-0 text-base font-normal"
+            href="tel:+48602108880"
+          >
+            Let's talk
+            <u>+48602108880</u>
           </a>
         </nav>
       </div>
