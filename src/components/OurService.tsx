@@ -13,33 +13,42 @@ const OurService = () => {
           <img src={headhunting} alt="Headhunting" className="size-16" />
           <div className="flex flex-col items-center justify-center sm:items-start">
             <h3 className="text-lg font-bold">headhunting</h3>
-            <p className="text-center sm:text-left">
-              targeted search for passive top talent (blend of technology and
-              networking) market research crafting and delivering an employee
-              value proposition
-            </p>
+            <ul className="ml-7 list-disc">
+              <li>
+                targeted search for passive top talent (a blend of technology
+                and networking)
+              </li>
+              <li>market research</li>
+              <li>employee value proposition</li>
+            </ul>
           </div>
         </div>
 
         <div className="flex flex-col items-center gap-1 sm:flex-row sm:gap-6">
           <img src={consulting} alt="Consulting" className="size-16" />
-          <div className="flex flex-col items-center justify-center sm:items-start">
-            <h3 className="text-lg font-bold">consulting</h3>
-            <p className="text-center sm:text-left">
-              ideal candidate fit salary benchmarking interview structure offer
-              closure probability phone references
-            </p>
+          <div className="flex w-full flex-col items-center justify-center sm:items-start">
+            <h3 className="text-center text-lg font-bold">consulting</h3>
+            <ul className="ml-7 list-disc self-start">
+              <li>ideal candidate fit</li>
+              <li>salary benchmarking</li>
+              <li>interview structure</li>
+              <li>offer closure probability</li>
+              <li>phone references</li>
+            </ul>
           </div>
         </div>
 
         <div className="flex flex-col items-center gap-1 sm:flex-row sm:gap-6">
           <img src={process} alt="Process" className="size-16" />
-          <div className="flex flex-col items-center justify-center sm:items-start">
-            <h3 className="text-lg font-bold">process facilitation</h3>
-            <p className="text-center sm:text-left">
-              plan the process for you or integrate it into yours only engage
-              preselected candidates control the process record video interviews
-            </p>
+          <div className="flex w-full flex-col items-center justify-center sm:items-start">
+            <h3 className="text-center text-lg font-bold">
+              process facilitation
+            </h3>
+            <ul className="ml-7 list-disc self-start">
+              <li>plan the process for you or integrate it into yours</li>
+              <li>only engage preselected candidates</li>
+              <li>record video interviews</li>
+            </ul>
           </div>
         </div>
       </div>
