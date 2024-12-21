@@ -14,7 +14,7 @@ const CaseStudies = () => {
           className="w-32 md:w-40"
         />
       </div>
-      <article className="bg-secondary mt-2 flex flex-col gap-5 rounded p-3 lg:flex-row lg:p-4">
+      <article className="bg-secondary mt-2 flex flex-col gap-5 rounded-2xl p-3 lg:flex-row lg:p-4">
         <div className="flex flex-col gap-2">
           <p>
             Founded in 2011, <b>Livespace</b> is a process-oriented CRM platform
