@@ -1,6 +1,23 @@
+import { useState } from 'react';
+import { cn } from '../utils/util';
+
 const Header = () => {
-  const handleClick = () => {
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+
+  const handleCheckboxChange = () => {
+    setIsDrawerOpen((current) => !current);
+  };
+
+  const closeDrawer = () => {
     document.getElementById('my-drawer')?.click();
+  };
+
+  const scrollToTheTop = () => {
+    if (isDrawerOpen) {
+      closeDrawer();
+    }
+
+    window.scrollTo(0, 0);
   };
 
   return (
@@ -8,7 +25,12 @@ const Header = () => {
       <div className="max-w-screen-3xl w-full">
         <div className="flex-none md:hidden">
           <div className="drawer">
-            <input id="my-drawer" type="checkbox" className="drawer-toggle" />
+            <input
+              id="my-drawer"
+              type="checkbox"
+              className="drawer-toggle"
+              onChange={handleCheckboxChange}
+            />
             <div className="drawer-content">
               {/* Page content here */}
               <label
@@ -30,7 +52,7 @@ const Header = () => {
                 </svg>
               </label>
             </div>
-            <div className="drawer-side">
+            <div className="drawer-side overflow-hidden">
               <label
                 htmlFor="my-drawer"
                 aria-label="close sidebar"
@@ -42,7 +64,7 @@ const Header = () => {
                   <a
                     className="btn btn-ghost text-base"
                     href="#about"
-                    onClick={handleClick}
+                    onClick={scrollToTheTop}
                   >
                     About
                   </a>
@@ -51,7 +73,7 @@ const Header = () => {
                   <a
                     className="btn btn-ghost text-base"
                     href="#caseStudies"
-                    onClick={handleClick}
+                    onClick={closeDrawer}
                   >
                     Case Studies
                   </a>
@@ -60,7 +82,7 @@ const Header = () => {
                   <a
                     className="btn btn-ghost text-base"
                     href="#testimonials"
-                    onClick={handleClick}
+                    onClick={closeDrawer}
                   >
                     Testimonials
                   </a>
@@ -69,13 +91,13 @@ const Header = () => {
                   <a
                     className="btn btn-ghost text-base"
                     href="#contact"
-                    onClick={handleClick}
+                    onClick={closeDrawer}
                   >
                     Contact
                   </a>
                 </li>
                 <li className="flex-grow bg-inherit"></li>
-                <li className="btn btn-ghost text-base" onClick={handleClick}>
+                <li className="btn btn-ghost text-base" onClick={closeDrawer}>
                   Close
                 </li>
               </ul>
@@ -83,8 +105,24 @@ const Header = () => {
           </div>
         </div>
 
+        <div
+          className={cn(
+            'absolute right-0 flex flex-col p-2 md:hidden',
+            isDrawerOpen ? '-z-10' : '',
+          )}
+        >
+          <p>Let's talk</p>
+          <a href="tel:+48602108880" className="link font-bold sm:text-lg">
+            +48 602 108 880
+          </a>
+        </div>
+
         <nav className="hidden w-full md:flex md:justify-evenly">
-          <a className="btn btn-ghost text-base" href="#about">
+          <a
+            className="btn btn-ghost text-base"
+            href="#about"
+            onClick={scrollToTheTop}
+          >
             About
           </a>
           <a className="btn btn-ghost text-base" href="#caseStudies">

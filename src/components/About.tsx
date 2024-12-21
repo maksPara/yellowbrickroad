@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section
       className="flex flex-col items-center justify-center gap-8 md:flex-row md:p-8 2xl:gap-16"
-      id="about"
+      id="aboutUs"
     >
       <img
         src={logo}

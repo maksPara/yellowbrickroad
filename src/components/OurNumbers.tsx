@@ -24,7 +24,7 @@ const gridContent = [
   {
     cellHeader: '18',
     cellDescription:
-      'years of headhunting expertise from founder Kacper Hołdys, including projects for Microsoft SAP, Rockwell Automation, and other global brands',
+      'years of headhunting expertise from founder Kacper Hołdys, including projects for Microsoft and other global brands',
   },
   {
     cellHeader: '1',
@@ -43,6 +43,7 @@ const OurNumbers = () => {
             cellHeader={cell.cellHeader}
             cellDescription={cell.cellDescription}
             primary={cell.primary}
+            key={cell.cellDescription}
           />
         ))}
       </div>
