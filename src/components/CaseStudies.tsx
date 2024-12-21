@@ -17,9 +17,10 @@ const CaseStudies = () => {
       <article className="bg-secondary mt-2 flex flex-col gap-5 rounded p-3 lg:flex-row lg:p-4">
         <div className="flex flex-col gap-2">
           <p>
-            Founded in 2011, Livespace is a process-oriented CRM platform with
-            over 1,200 paying clients. Recently, the company raised 10 million
-            PLN to support its growth and expansion into European markets.
+            Founded in 2011, <b>Livespace</b> is a process-oriented CRM platform
+            with over 1,200 paying clients. Recently, the company raised 10
+            million PLN to support its growth and expansion into European
+            markets.
           </p>
           <p>Inmid-2023, Livespace faced two key challenges:</p>
           <ul className="ml-4">
@@ -47,7 +48,8 @@ const CaseStudies = () => {
           <p>Yellow Brick Road facilitated this by:</p>
           <ul className="ml-7 list-disc">
             <li>
-              very good understanding recruitment needs (hard and soft skills)
+              very good understanding of the recruitment needs (hard and soft
+              skills)
             </li>
             <li>adding video interviews to the process</li>
             <li>thorough reference checks</li>

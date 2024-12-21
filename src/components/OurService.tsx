@@ -45,7 +45,7 @@ const OurService = () => {
               process facilitation
             </h3>
             <ul className="ml-7 list-disc self-start">
-              <li>plan the process for you or integrate it into yours</li>
+              <li>plan the process or integrate it into yours</li>
               <li>only engage preselected candidates</li>
               <li>record video interviews</li>
             </ul>
