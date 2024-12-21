@@ -1,4 +1,5 @@
 import About from '../components/About';
+import CaseStudies from '../components/CaseStudies';
 import Contact from '../components/Contact';
 import OurNumbers from '../components/OurNumbers';
 import OurService from '../components/OurService';
@@ -12,7 +13,7 @@ const HomePage = () => {
     <div className="flex flex-col items-center">
       <main className="max-w-screen-3xl flex-grow bg-amber-50 p-3 sm:p-4 md:p-6 xl:p-10">
         <About />
-        <p className="pt-16 text-lg">
+        <p className="pt-16 text-xl">
           AI and software engineers with the ownership needed to thrive in
           fast-paced startups are rare. <br />
           We are a headhunting boutique dedicated to finding them.
@@ -22,6 +23,7 @@ const HomePage = () => {
         <OurNumbers />
         <OurService />
         <WayOfWork />
+        <CaseStudies />
         <Testimonials />
       </main>
       <footer className="w-full" id="contact">
