@@ -13,9 +13,9 @@ const About = () => {
       />
       <div className="flex flex-col justify-center gap-3 text-center">
         <h1 className="text-4xl font-bold md:text-5xl">yellow brick road</h1>
-        <p className="text-2xl">
+        <h2 className="text-2xl">
           Better products. Happier people. Stronger Economies.
-        </p>
+        </h2>
       </div>
     </section>
   );
