@@ -26,7 +26,7 @@ const HomePage = () => {
         <CaseStudies />
         <Testimonials />
       </main>
-      <footer className="w-full" id="contact">
+      <footer className="w-full scroll-mt-20" id="contact">
         <Contact />
       </footer>
     </div>

@@ -4,7 +4,7 @@ import livespaceLogo from './../assets/img/livespace-logo.webp';
 
 const CaseStudies = () => {
   return (
-    <Section id="caseStudies">
+    <Section id="caseStudies" classNames="scroll-mt-20">
       <Heading text="CASE STUDIES" />
       <div className="flex items-center justify-between">
         <p className="text-lg font-bold">Growth and stability</p>

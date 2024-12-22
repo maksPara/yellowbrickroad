@@ -3,8 +3,8 @@ import logo from './../assets/img/logo.webp';
 const About = () => {
   return (
     <section
-      className="flex flex-col items-center justify-center gap-8 md:flex-row md:p-8 2xl:gap-16"
-      id="aboutUs"
+      className="flex scroll-mt-20 flex-col items-center justify-center gap-8 md:flex-row md:p-8 2xl:gap-16"
+      id="about"
     >
       <img
         src={logo}
