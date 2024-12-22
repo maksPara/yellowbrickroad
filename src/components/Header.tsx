@@ -12,14 +12,6 @@ const Header = () => {
     document.getElementById('my-drawer')?.click();
   };
 
-  const scrollToTheTop = () => {
-    if (isDrawerOpen) {
-      closeDrawer();
-    }
-
-    window.scrollTo(0, 0);
-  };
-
   return (
     <header className="navbar sticky top-0 z-10 flex justify-center bg-amber-50 p-1 shadow-sm md:shadow-md">
       <div className="max-w-screen-3xl w-full">
@@ -64,7 +56,7 @@ const Header = () => {
                   <a
                     className="btn btn-ghost text-base"
                     href="#about"
-                    onClick={scrollToTheTop}
+                    onClick={closeDrawer}
                   >
                     About
                   </a>
@@ -118,11 +110,7 @@ const Header = () => {
         </div>
 
         <nav className="hidden w-full md:flex md:justify-evenly">
-          <a
-            className="btn btn-ghost text-base"
-            href="#about"
-            onClick={scrollToTheTop}
-          >
+          <a className="btn btn-ghost text-base" href="#about">
             About
           </a>
           <a className="btn btn-ghost text-base" href="#caseStudies">
@@ -140,7 +128,7 @@ const Header = () => {
             href="tel:+48602108880"
           >
             Let's talk
-            <u>+48602108880</u>
+            <u>+48 602 108 880</u>
           </a>
         </nav>
       </div>

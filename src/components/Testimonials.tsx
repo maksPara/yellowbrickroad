@@ -8,7 +8,7 @@ import imgArenaLogo from './../assets/img/imgarena-logo.png';
 
 const Testimonials = () => {
   return (
-    <Section id="testimonials">
+    <Section id="testimonials" classNames="scroll-mt-20">
       <Heading text="TESTIMONIALS" />
       <div className="chat chat-start mb-4">
         <div className="chat-bubble chat-bubble-secondary px-3 text-black sm:px-5 md:p-6">
