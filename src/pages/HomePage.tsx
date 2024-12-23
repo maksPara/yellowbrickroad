@@ -23,8 +23,11 @@ const HomePage = () => {
         <OurNumbers />
         <OurService />
         <WayOfWork />
+        {/* pricing */}
+        {/* trusted us */}
         <CaseStudies />
         <Testimonials />
+        {/* our team */}
       </main>
       <footer className="w-full scroll-mt-20" id="contact">
         <Contact />

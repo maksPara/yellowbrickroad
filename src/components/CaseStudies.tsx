@@ -22,7 +22,7 @@ const CaseStudies = () => {
             million PLN to support its growth and expansion into European
             markets.
           </p>
-          <p>Inmid-2023, Livespace faced two key challenges:</p>
+          <p>In mid-2023, Livespace faced two key challenges:</p>
           <ul className="ml-4">
             <li>
               <b>1. System Stability:</b> Managing increased data processing and
@@ -48,7 +48,7 @@ const CaseStudies = () => {
           <p>Yellow Brick Road facilitated this by:</p>
           <ul className="ml-7 list-disc">
             <li>
-              very good understanding of the recruitment needs (hard and soft
+              in-depth understanding of the recruitment needs (hard and soft
               skills)
             </li>
             <li>adding video interviews to the process</li>
@@ -80,11 +80,11 @@ const CaseStudies = () => {
           <p className="bg-primary rounded-full p-2 text-center text-xl text-amber-50">
             ensured
           </p>
-          <p className="p-2 text-center">System stability</p>
+          <p className="p-2 text-center">system stability</p>
           <p className="bg-primary rounded-full p-2 text-center text-xl text-amber-50">
             enabled
           </p>
-          <p className="p-2 pb-0 text-center">International expansion</p>
+          <p className="p-2 pb-0 text-center">international expansion</p>
         </div>
       </article>
     </Section>

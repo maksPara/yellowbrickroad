@@ -6,11 +6,11 @@ const WayOfWork = () => {
     <Section>
       <Heading text="WAY OF WORK" />
       <div className="grid grid-cols-[56px_1fr] place-items-start gap-3 sm:gap-6 lg:grid-cols-5">
-        <div className="clip-custom-shape bg-secondary grid h-14 w-24 rotate-90 place-items-center place-self-center lg:-order-1 lg:h-20 lg:w-32 lg:rotate-0"></div>
+        <div className="clip-custom-shape bg-secondary grid h-14 w-28 rotate-90 place-items-center place-self-center lg:-order-1 lg:h-20 lg:w-40 lg:rotate-0"></div>
 
         <div className="flex flex-col gap-4">
           <div>
-            <p className="text-lg font-bold">Kick-off</p>
+            <p className="text-xl font-bold">Kick-off</p>
             <br className="hidden lg:block" />
           </div>
           <p>
@@ -21,10 +21,10 @@ const WayOfWork = () => {
           </p>
         </div>
 
-        <div className="clip-custom-shape bg-secondary grid h-14 w-24 rotate-90 place-items-center place-self-center lg:-order-1 lg:h-20 lg:w-32 lg:rotate-0"></div>
+        <div className="clip-custom-shape bg-secondary grid h-14 w-28 rotate-90 place-items-center place-self-center lg:-order-1 lg:h-20 lg:w-40 lg:rotate-0"></div>
         <div className="flex flex-col gap-4">
           <div>
-            <p className="text-lg font-bold">1st iteration</p>
+            <p className="text-xl font-bold">1st iteration</p>
             <p>(2 weeks)</p>
           </div>
           <p>
@@ -36,11 +36,11 @@ const WayOfWork = () => {
           </p>
         </div>
 
-        <div className="clip-custom-shape bg-secondary grid h-14 w-24 rotate-90 place-items-center place-self-center lg:-order-1 lg:h-20 lg:w-32 lg:rotate-0"></div>
+        <div className="clip-custom-shape bg-secondary grid h-14 w-28 rotate-90 place-items-center place-self-center lg:-order-1 lg:h-20 lg:w-40 lg:rotate-0"></div>
         <div className="flex flex-col gap-4">
           <div>
-            <p className="text-lg font-bold">2nd iteration</p>
-            <p>(2 weeks)</p>
+            <p className="text-xl font-bold">2-week iterations</p>
+            <br className="hidden lg:block" />
           </div>
           <p>
             <b>You:</b> interview presented candidates, give us feedbacks
@@ -50,11 +50,11 @@ const WayOfWork = () => {
           </p>
         </div>
 
-        <div className="clip-custom-shape bg-secondary grid h-14 w-24 rotate-90 place-items-center place-self-center lg:-order-1 lg:h-20 lg:w-32 lg:rotate-0"></div>
+        <div className="clip-custom-shape bg-secondary grid h-14 w-28 rotate-90 place-items-center place-self-center lg:-order-1 lg:h-20 lg:w-40 lg:rotate-0"></div>
         <div className="flex flex-col gap-4">
           <div>
-            <p className="text-lg font-bold">Offer</p>
-            <p>(2 weeks)</p>
+            <p className="text-xl font-bold">Offer</p>
+            <br className="hidden lg:block" />
           </div>
           <p>
             <b>You:</b> choose the candidate and set the offer
@@ -65,11 +65,11 @@ const WayOfWork = () => {
           </p>
         </div>
 
-        <div className="clip-custom-shape bg-secondary grid h-14 w-24 rotate-90 place-items-center place-self-center lg:-order-1 lg:h-20 lg:w-32 lg:rotate-0"></div>
+        <div className="clip-custom-shape bg-secondary grid h-14 w-28 rotate-90 place-items-center place-self-center lg:-order-1 lg:h-20 lg:w-40 lg:rotate-0"></div>
         <div className="flex flex-col gap-4">
           <div>
-            <p className="text-lg font-bold">Guarantee</p>
-            <p>(2 weeks)</p>
+            <p className="text-xl font-bold">Guarantee</p>
+            <br className="hidden lg:block" />
           </div>
           <p>
             <b>You:</b> make sure the new hire hits the ground running
