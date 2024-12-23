@@ -6,6 +6,10 @@
   .clip-custom-shape {
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
   }
+
+  .clip-shadow {
+    filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+  }
 }
 
 html {
