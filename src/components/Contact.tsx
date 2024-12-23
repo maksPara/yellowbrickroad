@@ -12,7 +12,7 @@ const Contact = () => {
         </p>
         <a
           href="mailto:kacper.holdys@yellowbrickroad.pl"
-          className="link font-bold sm:text-lg"
+          className="link line-clamp-1 font-bold sm:text-lg"
         >
           kacper.holdys@yellowbrickroad.pl
         </a>

@@ -13,15 +13,15 @@ const Testimonials = () => {
       <div className="chat chat-start mb-4">
         <div className="chat-bubble chat-bubble-secondary px-3 text-black sm:px-5 md:p-6">
           <p>
-            We are extremely satisfied with our collaboration. They demonstrated
-            an excellent understanding of our business needs, coupled with
-            outstanding headhunting skills and expertise. They played a pivotal
-            role in our company&#39;s transformation by recruiting nearly half
-            of our entire workforce. Without their support, we would not have
-            been able to achieve our business goals, significantly improve
-            product development quality, or initiate our international expansion
-            efforts. They have proven to be trustworthy, professional, and
-            incredibly effective.
+            We are extremely satisfied with our collaboration. Yellow Brick Road
+            demonstrated an excellent understanding of our business needs,
+            coupled with outstanding headhunting skills and expertise. They
+            played a pivotal role in our company&#39;s transformation by
+            recruiting nearly half of our entire workforce. Without their
+            support, we would not have been able to achieve our business goals,
+            significantly improve product development quality, or initiate our
+            international expansion efforts. They have proven to be trustworthy,
+            professional, and incredibly effective.
           </p>
           <div className="mt-3 flex items-center justify-between">
             <div>
