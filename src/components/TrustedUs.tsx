@@ -18,47 +18,47 @@ const TrustedUs = () => {
         <img
           src={stepstoneLogo}
           alt="Livespace logo"
-          className="invert duration-500 hover:scale-105"
+          className="invert duration-500 hover:scale-110"
         />
         <img
           src={ailleronLogo}
           alt="Ailleron logo"
-          className="duration-500 hover:scale-105"
+          className="duration-500 hover:scale-110"
         />
         <img
           src={futureMindLogo}
           alt="Future Mind logo"
-          className="duration-500 hover:scale-105"
+          className="duration-500 hover:scale-110"
         />
         <img
           src={livespaceLogo}
           alt="Livespace logo"
-          className="duration-500 hover:scale-105"
+          className="duration-500 hover:scale-110"
         />
         <img
           src={silvairLogo}
           alt="Silvair logo"
-          className="duration-500 hover:scale-105"
+          className="duration-500 hover:scale-110"
         />
         <img
           src={imgArenaLogo}
           alt="IMG Arena logo"
-          className="duration-500 hover:scale-105"
+          className="duration-500 hover:scale-110"
         />
         <img
           src={netcreditLogo}
           alt="Netcredit logo"
-          className="duration-500 hover:scale-105"
+          className="duration-500 hover:scale-110"
         />
         <img
           src={wayToGrowLogo}
           alt="Way To Grow logo"
-          className="duration-500 hover:scale-105"
+          className="duration-500 hover:scale-110"
         />
         <img
           src={crazeLogo}
           alt="Craze logo"
-          className="duration-500 hover:scale-105"
+          className="duration-500 hover:scale-110"
         />
       </div>
     </Section>

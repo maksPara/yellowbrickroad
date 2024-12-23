@@ -123,7 +123,7 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-      <div className="chat chat-end mb-4">
+      <div className="chat chat-end">
         <div className="chat-bubble chat-bubble-secondary text-black md:p-6 md:pb-3">
           <p>
             I was cooperating with Kacper on difficult project regarding Backend

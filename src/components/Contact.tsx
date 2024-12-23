@@ -1,13 +1,13 @@
 const Contact = () => {
   return (
-    <div className="mt-6 flex flex-col sm:flex-row">
-      <div className="bg-primary flex grow p-4 pt-20">
+    <div className="flex scroll-mt-20 flex-col sm:flex-row" id="contact">
+      <div className="flex grow bg-primary p-4 pt-20">
         <p className="w-full text-3xl font-bold text-amber-50 sm:text-right">
           Got questions?
         </p>
       </div>
       <div className="flex grow flex-col gap-2 p-4 pb-10 sm:pt-20">
-        <p className="text-primary mb-10 text-3xl font-bold sm:mb-20">
+        <p className="mb-10 text-3xl font-bold text-primary sm:mb-20">
           Let's talk
         </p>
         <a

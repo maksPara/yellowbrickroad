@@ -13,8 +13,8 @@ const Header = () => {
   };
 
   return (
-    <header className="navbar sticky top-0 z-10 flex justify-center bg-amber-50 p-1 shadow-sm md:shadow-md">
-      <div className="max-w-screen-3xl w-full">
+    <header className="navbar sticky top-0 z-20 flex justify-center bg-amber-50 p-0 shadow-sm md:shadow-md">
+      <div className="w-full max-w-screen-3xl">
         <div className="flex-none md:hidden">
           <div className="drawer">
             <input
@@ -50,7 +50,7 @@ const Header = () => {
                 aria-label="close sidebar"
                 className="drawer-overlay"
               ></label>
-              <ul className="menu text-base-content min-h-full w-72 bg-amber-50 p-4">
+              <ul className="menu min-h-full w-72 bg-amber-50 p-4 text-base-content">
                 {/* Sidebar content here */}
                 <li>
                   <a
@@ -110,21 +110,21 @@ const Header = () => {
         </div>
 
         <nav className="hidden w-full md:flex md:justify-evenly">
-          <a className="btn btn-ghost text-base" href="#about">
+          <a className="btn btn-ghost text-sm" href="#about">
             About
           </a>
-          <a className="btn btn-ghost text-base" href="#caseStudies">
+          <a className="btn btn-ghost text-sm" href="#caseStudies">
             Case Studies
           </a>
-          <a className="btn btn-ghost text-base" href="#testimonials">
+          <a className="btn btn-ghost text-sm" href="#testimonials">
             Testimonials
           </a>
-          <a className="btn btn-ghost text-base" href="#contact">
+          <a className="btn btn-ghost text-sm" href="#contact">
             Contact
           </a>
 
           <a
-            className="btn btn-ghost flex flex-col flex-nowrap items-end gap-0 text-base font-normal"
+            className="btn btn-ghost flex flex-col flex-nowrap items-end gap-0 text-sm font-normal"
             href="tel:+48602108880"
           >
             Let's talk
