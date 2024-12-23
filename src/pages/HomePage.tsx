@@ -6,6 +6,7 @@ import OurService from '../components/OurService';
 import Problem from '../components/Problem';
 import Solution from '../components/Solution';
 import Testimonials from '../components/Testimonials';
+import TrustedUs from '../components/TrustedUs';
 import WayOfWork from '../components/WayOfWork';
 
 const HomePage = () => {
@@ -24,7 +25,7 @@ const HomePage = () => {
         <OurService />
         <WayOfWork />
         {/* pricing */}
-        {/* trusted us */}
+        <TrustedUs />
         <CaseStudies />
         <Testimonials />
         {/* our team */}

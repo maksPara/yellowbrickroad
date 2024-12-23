@@ -1,12 +1,92 @@
 import Heading from './ui/Heading';
 import Section from './ui/Section';
 import livespaceLogo from './../assets/img/livespace-logo.webp';
+import stepstoneLogo from './../assets/img/stepstone-logo.png';
+import ailleronLogo from './../assets/img/ailleron-logo.png';
 
 const CaseStudies = () => {
   return (
     <Section id="caseStudies" classNames="scroll-mt-20">
       <Heading text="CASE STUDIES" />
+
       <div className="flex items-center justify-between">
+        <p className="text-lg font-bold">Senior ML Ops</p>
+        <img
+          src={stepstoneLogo}
+          alt="Stepstone logo"
+          className="w-32 invert md:w-40"
+        />
+      </div>
+      <article className="bg-secondary mt-2 flex flex-col gap-5 rounded-2xl p-3 lg:flex-row lg:p-4">
+        <div className="flex flex-col gap-2">
+          <p>
+            In 2024, <b>Stepstone Group</b> faced a challenge: accelerating
+            machine learning development, enhancing ML systems architecture, and
+            building a strong ML Ops environment to integrate data science with
+            software engineering. To achieve this, they needed a Senior ML Ops
+            Engineer.
+          </p>
+          <p>
+            After months of unsuccessful recruitment across three countries (UK,
+            Germany, Poland), we were briefed and delivered a successful
+            candidate within two weeks.
+          </p>
+          <p>
+            From kickoff to the candidate's first day, the process took 4.5
+            months.
+          </p>
+        </div>
+
+        <div className="basis-full">
+          <p className="bg-primary rounded-full p-2 text-center text-xl text-amber-50">
+            2 weeks
+          </p>
+          <p className="p-2 text-center">to present a successful candidate</p>
+          <p className="bg-primary rounded-full p-2 text-center text-xl text-amber-50">
+            4 and a half months
+          </p>
+          <p className="p-2 text-center">
+            from kick-off to new hire&#39;s day one
+          </p>
+        </div>
+      </article>
+
+      <div className="mt-8 flex items-center justify-between">
+        <p className="text-lg font-bold">Business Development Lead</p>
+        <img src={ailleronLogo} alt="Ailleron logo" className="w-32 md:w-40" />
+      </div>
+
+      <article className="bg-secondary mt-2 flex flex-col gap-5 rounded-2xl p-3 lg:flex-row lg:p-4">
+        <div className="flex flex-col gap-2">
+          <p>
+            Polish Software House and Tech Product Company (public company, 150
+            +FTE) faced a sales slump and needed strong business development
+            talent to target the global enterprise market. We were tasked in
+            with filling one confidential Business Development Lead role.
+            Finally, out of 15 candidates presented, 4 received offers, and 3
+            accepted.
+          </p>
+          <p>
+            The process took under 3 months, with the first candidate hired in
+            just 13 days, and the first hire starting in 1.5 months.
+          </p>
+        </div>
+
+        <div className="basis-full">
+          <p className="bg-primary rounded-full p-2 text-center text-xl text-amber-50">
+            1 and a half months
+          </p>
+          <p className="p-2 text-center">to present a successful candidate</p>
+          <p className="bg-primary rounded-full p-2 text-center text-xl text-amber-50">
+            1 -&gt; 3
+          </p>
+          <p className="p-2 text-center">
+            from kick-off to new hire&#39;s day one
+          </p>
+        </div>
+      </article>
+
+      <div className="mt-8 flex items-center justify-between">
         <p className="text-lg font-bold">Growth and stability</p>
         <img
           src={livespaceLogo}
