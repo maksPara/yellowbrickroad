@@ -15,15 +15,51 @@ const TrustedUs = () => {
     <Section>
       <Heading text="TRUSTED US" />
       <div className="grid grid-cols-2 place-items-center gap-6 px-6 sm:grid-cols-3 md:gap-12 md:px-12 lg:grid-cols-4 2xl:grid-cols-5">
-        <img src={stepstoneLogo} alt="Livespace logo" className="invert" />
-        <img src={ailleronLogo} alt="Ailleron logo" />
-        <img src={futureMindLogo} alt="Future Mind logo" />
-        <img src={livespaceLogo} alt="Livespace logo" />
-        <img src={silvairLogo} alt="Silvair logo" />
-        <img src={imgArenaLogo} alt="IMG Arena logo" />
-        <img src={netcreditLogo} alt="Netcredit logo" />
-        <img src={wayToGrowLogo} alt="Way To Grow logo" />
-        <img src={crazeLogo} alt="Craze logo" />
+        <img
+          src={stepstoneLogo}
+          alt="Livespace logo"
+          className="invert duration-500 hover:scale-105"
+        />
+        <img
+          src={ailleronLogo}
+          alt="Ailleron logo"
+          className="duration-500 hover:scale-105"
+        />
+        <img
+          src={futureMindLogo}
+          alt="Future Mind logo"
+          className="duration-500 hover:scale-105"
+        />
+        <img
+          src={livespaceLogo}
+          alt="Livespace logo"
+          className="duration-500 hover:scale-105"
+        />
+        <img
+          src={silvairLogo}
+          alt="Silvair logo"
+          className="duration-500 hover:scale-105"
+        />
+        <img
+          src={imgArenaLogo}
+          alt="IMG Arena logo"
+          className="duration-500 hover:scale-105"
+        />
+        <img
+          src={netcreditLogo}
+          alt="Netcredit logo"
+          className="duration-500 hover:scale-105"
+        />
+        <img
+          src={wayToGrowLogo}
+          alt="Way To Grow logo"
+          className="duration-500 hover:scale-105"
+        />
+        <img
+          src={crazeLogo}
+          alt="Craze logo"
+          className="duration-500 hover:scale-105"
+        />
       </div>
     </Section>
   );

@@ -51,7 +51,7 @@ const CaseStudies = () => {
         </div>
       </article>
 
-      <div className="mt-8 flex items-center justify-between">
+      <div className="mt-8 flex items-center justify-between lg:mt-12">
         <p className="text-lg font-bold">Business Development Lead</p>
         <img src={ailleronLogo} alt="Ailleron logo" className="w-32 md:w-40" />
       </div>
@@ -86,7 +86,7 @@ const CaseStudies = () => {
         </div>
       </article>
 
-      <div className="mt-8 flex items-center justify-between">
+      <div className="mt-8 flex items-center justify-between lg:mt-12">
         <p className="text-lg font-bold">Growth and stability</p>
         <img
           src={livespaceLogo}
