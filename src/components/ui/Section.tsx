@@ -11,7 +11,7 @@ const Section = ({
   id?: string;
 }) => {
   return (
-    <section className={cn('mt-20 md:mt-24', classNames)} id={id}>
+    <section className={cn('mt-16 md:mt-20', classNames)} id={id}>
       {children}
     </section>
   );

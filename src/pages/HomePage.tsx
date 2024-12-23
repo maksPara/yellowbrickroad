@@ -3,6 +3,7 @@ import CaseStudies from '../components/CaseStudies';
 import Contact from '../components/Contact';
 import OurNumbers from '../components/OurNumbers';
 import OurService from '../components/OurService';
+import Pricing from '../components/Pricing';
 import Problem from '../components/Problem';
 import Solution from '../components/Solution';
 import Testimonials from '../components/Testimonials';
@@ -24,7 +25,7 @@ const HomePage = () => {
         <OurNumbers />
         <OurService />
         <WayOfWork />
-        {/* pricing */}
+        <Pricing />
         <TrustedUs />
         <CaseStudies />
         <Testimonials />
