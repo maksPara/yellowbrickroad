@@ -6,7 +6,7 @@ const WayOfWork = () => {
     <Section>
       <Heading text="WAY OF WORK" />
       <div className="grid grid-cols-[56px_1fr] place-items-start gap-3 sm:gap-6 lg:grid-cols-5">
-        <div className="clip-custom-shape bg-secondary grid h-14 w-28 rotate-90 place-items-center place-self-center lg:-order-1 lg:h-20 lg:w-40 lg:rotate-0"></div>
+        <div className="clip-custom-shape bg-secondary grid h-14 w-28 rotate-90 place-items-center place-self-center lg:-order-1 lg:h-20 lg:w-40 lg:rotate-0 xl:w-44 2xl:w-48"></div>
 
         <div className="flex flex-col gap-4">
           <div>
@@ -21,7 +21,7 @@ const WayOfWork = () => {
           </p>
         </div>
 
-        <div className="clip-custom-shape bg-secondary grid h-14 w-28 rotate-90 place-items-center place-self-center lg:-order-1 lg:h-20 lg:w-40 lg:rotate-0"></div>
+        <div className="clip-custom-shape bg-secondary grid h-14 w-28 rotate-90 place-items-center place-self-center lg:-order-1 lg:h-20 lg:w-40 lg:rotate-0 xl:w-44 2xl:w-48"></div>
         <div className="flex flex-col gap-4">
           <div>
             <p className="text-xl font-bold">1st iteration</p>
@@ -36,7 +36,7 @@ const WayOfWork = () => {
           </p>
         </div>
 
-        <div className="clip-custom-shape bg-secondary grid h-14 w-28 rotate-90 place-items-center place-self-center lg:-order-1 lg:h-20 lg:w-40 lg:rotate-0"></div>
+        <div className="clip-custom-shape bg-secondary grid h-14 w-28 rotate-90 place-items-center place-self-center lg:-order-1 lg:h-20 lg:w-40 lg:rotate-0 xl:w-44 2xl:w-48"></div>
         <div className="flex flex-col gap-4">
           <div>
             <p className="text-xl font-bold">2-week iterations</p>
@@ -50,7 +50,7 @@ const WayOfWork = () => {
           </p>
         </div>
 
-        <div className="clip-custom-shape bg-secondary grid h-14 w-28 rotate-90 place-items-center place-self-center lg:-order-1 lg:h-20 lg:w-40 lg:rotate-0"></div>
+        <div className="clip-custom-shape bg-secondary grid h-14 w-28 rotate-90 place-items-center place-self-center lg:-order-1 lg:h-20 lg:w-40 lg:rotate-0 xl:w-44 2xl:w-48"></div>
         <div className="flex flex-col gap-4">
           <div>
             <p className="text-xl font-bold">Offer</p>
@@ -65,7 +65,7 @@ const WayOfWork = () => {
           </p>
         </div>
 
-        <div className="clip-custom-shape bg-secondary grid h-14 w-28 rotate-90 place-items-center place-self-center lg:-order-1 lg:h-20 lg:w-40 lg:rotate-0"></div>
+        <div className="clip-custom-shape bg-secondary grid h-14 w-28 rotate-90 place-items-center place-self-center lg:-order-1 lg:h-20 lg:w-40 lg:rotate-0 xl:w-44 2xl:w-48"></div>
         <div className="flex flex-col gap-4">
           <div>
             <p className="text-xl font-bold">Guarantee</p>

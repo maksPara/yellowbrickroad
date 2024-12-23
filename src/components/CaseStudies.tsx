@@ -70,7 +70,7 @@ const CaseStudies = () => {
           <p className="bg-primary rounded-full p-2 text-center text-xl text-amber-50">
             50%
           </p>
-          <p className="p-2 text-center">Headcount growth in 1 year</p>
+          <p className="p-2 text-center">headcount growth in 1 year</p>
           <p className="bg-primary rounded-full p-2 text-center text-xl text-amber-50">
             hired heads of:
           </p>
