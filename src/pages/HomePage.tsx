@@ -9,6 +9,7 @@ import Solution from '../components/Solution';
 import Testimonials from '../components/Testimonials';
 import TrustedUs from '../components/TrustedUs';
 import WayOfWork from '../components/WayOfWork';
+import OurTeam from '../components/OurTeam';
 
 const HomePage = () => {
   return (
@@ -29,9 +30,9 @@ const HomePage = () => {
         <TrustedUs />
         <CaseStudies />
         <Testimonials />
-        {/* our team */}
       </main>
-      <footer className="w-full scroll-mt-20" id="contact">
+      <OurTeam />
+      <footer className="w-full">
         <Contact />
       </footer>
     </div>
