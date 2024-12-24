@@ -37,7 +37,7 @@ const CaseStudies = () => {
           </p>
         </div>
 
-        <div className="basis-full">
+        <div className="lg:min-w-72">
           <p className="rounded-full bg-primary p-2 text-center text-xl text-amber-50">
             2 weeks
           </p>
@@ -72,7 +72,7 @@ const CaseStudies = () => {
           </p>
         </div>
 
-        <div className="basis-full">
+        <div className="lg:min-w-72">
           <p className="rounded-full bg-primary p-2 text-center text-xl text-amber-50">
             1 and a half months
           </p>
@@ -146,7 +146,7 @@ const CaseStudies = () => {
             <li>Competency-based approach and reference interviews</li>
           </ul>
         </div>
-        <div className="basis-full">
+        <div className="lg:min-w-72">
           <p className="rounded-full bg-primary p-2 text-center text-xl text-amber-50">
             50%
           </p>
