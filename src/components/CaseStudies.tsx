@@ -17,7 +17,7 @@ const CaseStudies = () => {
           className="w-32 invert md:w-40"
         />
       </div>
-      <article className="bg-secondary mt-2 flex flex-col gap-5 rounded-2xl p-3 lg:flex-row lg:p-4">
+      <article className="mt-2 flex flex-col gap-5 rounded-2xl bg-secondary p-3 shadow-lg lg:flex-row lg:p-4">
         <div className="flex flex-col gap-2">
           <p>
             In 2024, <b>Stepstone Group</b> faced a challenge: accelerating
@@ -38,11 +38,11 @@ const CaseStudies = () => {
         </div>
 
         <div className="basis-full">
-          <p className="bg-primary rounded-full p-2 text-center text-xl text-amber-50">
+          <p className="rounded-full bg-primary p-2 text-center text-xl text-amber-50">
             2 weeks
           </p>
           <p className="p-2 text-center">to present a successful candidate</p>
-          <p className="bg-primary rounded-full p-2 text-center text-xl text-amber-50">
+          <p className="rounded-full bg-primary p-2 text-center text-xl text-amber-50">
             4 and a half months
           </p>
           <p className="p-2 text-center">
@@ -56,7 +56,7 @@ const CaseStudies = () => {
         <img src={ailleronLogo} alt="Ailleron logo" className="w-32 md:w-40" />
       </div>
 
-      <article className="bg-secondary mt-2 flex flex-col gap-5 rounded-2xl p-3 lg:flex-row lg:p-4">
+      <article className="mt-2 flex flex-col gap-5 rounded-2xl bg-secondary p-3 shadow-lg lg:flex-row lg:p-4">
         <div className="flex flex-col gap-2">
           <p>
             Polish Software House and Tech Product Company (public company, 150
@@ -73,11 +73,11 @@ const CaseStudies = () => {
         </div>
 
         <div className="basis-full">
-          <p className="bg-primary rounded-full p-2 text-center text-xl text-amber-50">
+          <p className="rounded-full bg-primary p-2 text-center text-xl text-amber-50">
             1 and a half months
           </p>
           <p className="p-2 text-center">to present a successful candidate</p>
-          <p className="bg-primary rounded-full p-2 text-center text-xl text-amber-50">
+          <p className="rounded-full bg-primary p-2 text-center text-xl text-amber-50">
             1 -&gt; 3
           </p>
           <p className="p-2 text-center">
@@ -94,7 +94,7 @@ const CaseStudies = () => {
           className="w-32 md:w-40"
         />
       </div>
-      <article className="bg-secondary mt-2 flex flex-col gap-5 rounded-2xl p-3 lg:flex-row lg:p-4">
+      <article className="mt-2 flex flex-col gap-5 rounded-2xl bg-secondary p-3 shadow-lg lg:flex-row lg:p-4">
         <div className="flex flex-col gap-2">
           <p>
             Founded in 2011, <b>Livespace</b> is a process-oriented CRM platform
@@ -147,21 +147,21 @@ const CaseStudies = () => {
           </ul>
         </div>
         <div className="basis-full">
-          <p className="bg-primary rounded-full p-2 text-center text-xl text-amber-50">
+          <p className="rounded-full bg-primary p-2 text-center text-xl text-amber-50">
             50%
           </p>
           <p className="p-2 text-center">headcount growth in 1 year</p>
-          <p className="bg-primary rounded-full p-2 text-center text-xl text-amber-50">
+          <p className="rounded-full bg-primary p-2 text-center text-xl text-amber-50">
             hired heads of:
           </p>
           <p className="p-2 text-center">
             Marketing, Product, People, Customer Success
           </p>
-          <p className="bg-primary rounded-full p-2 text-center text-xl text-amber-50">
+          <p className="rounded-full bg-primary p-2 text-center text-xl text-amber-50">
             ensured
           </p>
           <p className="p-2 text-center">system stability</p>
-          <p className="bg-primary rounded-full p-2 text-center text-xl text-amber-50">
+          <p className="rounded-full bg-primary p-2 text-center text-xl text-amber-50">
             enabled
           </p>
           <p className="p-2 pb-0 text-center">international expansion</p>

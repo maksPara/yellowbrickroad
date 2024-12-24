@@ -10,7 +10,11 @@ const OurService = () => {
       <Heading text="OUR SERVICE" />
       <div className="flex flex-col gap-4">
         <div className="flex flex-col items-center gap-1 sm:flex-row sm:gap-6">
-          <img src={headhunting} alt="Headhunting" className="size-16" />
+          <img
+            src={headhunting}
+            alt="Headhunting"
+            className="size-16 rounded-full shadow-xl"
+          />
           <div className="flex flex-col items-center justify-center sm:items-start">
             <h3 className="text-lg font-bold">headhunting</h3>
             <ul className="ml-7 list-disc">
@@ -25,7 +29,11 @@ const OurService = () => {
         </div>
 
         <div className="flex flex-col items-center gap-1 sm:flex-row sm:gap-6">
-          <img src={consulting} alt="Consulting" className="size-16" />
+          <img
+            src={consulting}
+            alt="Consulting"
+            className="size-16 rounded-full shadow-xl"
+          />
           <div className="flex w-full flex-col items-center justify-center sm:items-start">
             <h3 className="text-center text-lg font-bold">consulting</h3>
             <ul className="ml-7 list-disc self-start">
@@ -39,7 +47,11 @@ const OurService = () => {
         </div>
 
         <div className="flex flex-col items-center gap-1 sm:flex-row sm:gap-6">
-          <img src={process} alt="Process" className="size-16" />
+          <img
+            src={process}
+            alt="Process"
+            className="size-16 rounded-full shadow-xl"
+          />
           <div className="flex w-full flex-col items-center justify-center sm:items-start">
             <h3 className="text-center text-lg font-bold">
               process facilitation

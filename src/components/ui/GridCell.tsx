@@ -16,12 +16,12 @@ const GridCell = ({
       <p
         className={cn(
           primary ? 'bg-primary text-amber-50' : 'bg-secondary text-primary',
-          'rounded p-2 text-center text-2xl font-bold',
+          'rounded p-2 text-center text-2xl font-bold shadow-lg',
         )}
       >
         {cellHeader}
       </p>
-      <p className="text-center text-base">{cellDescription}</p>
+      <p className="pt-0.5 text-center text-base">{cellDescription}</p>
     </div>
   );
 };
