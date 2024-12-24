@@ -11,7 +11,7 @@ const Testimonials = () => {
     <Section id="testimonials" classNames="scroll-mt-20">
       <Heading text="TESTIMONIALS" />
       <div className="chat chat-start mb-4">
-        <div className="chat-bubble chat-bubble-secondary px-3 text-black sm:px-5 md:p-6">
+        <div className="chat-bubble chat-bubble-secondary px-3 text-black shadow-lg sm:px-5 md:p-6">
           <p>
             We are extremely satisfied with our collaboration. Yellow Brick Road
             demonstrated an excellent understanding of our business needs,
@@ -35,7 +35,7 @@ const Testimonials = () => {
         </div>
       </div>
       <div className="chat chat-end mb-4">
-        <div className="chat-bubble chat-bubble-secondary text-black md:p-6">
+        <div className="chat-bubble chat-bubble-secondary text-black shadow-lg md:p-6">
           <p>
             For me, it's crucial that the recruiter provides candidate profiles
             tailored to my needs, rather than those that are simply "available
@@ -59,7 +59,7 @@ const Testimonials = () => {
       </div>
 
       <div className="chat chat-start mb-4">
-        <div className="chat-bubble chat-bubble-secondary px-3 text-black sm:px-5 md:p-6">
+        <div className="chat-bubble chat-bubble-secondary px-3 text-black shadow-lg sm:px-5 md:p-6">
           <p>
             Throughout all the cooperation, Kacper and his associates proved
             they&#39;re reliable partners. Showed a high level of engagement and
@@ -85,7 +85,7 @@ const Testimonials = () => {
         </div>
       </div>
       <div className="chat chat-end mb-4">
-        <div className="chat-bubble chat-bubble-secondary text-black md:p-6">
+        <div className="chat-bubble chat-bubble-secondary text-black shadow-lg md:p-6">
           <p>
             I had the pleasure of working with Kacper on one of the key
             recruitments to the TECH team. I was very impressed with his
@@ -106,7 +106,7 @@ const Testimonials = () => {
       </div>
 
       <div className="chat chat-start mb-4">
-        <div className="chat-bubble chat-bubble-secondary px-3 text-black sm:px-5 md:p-6">
+        <div className="chat-bubble chat-bubble-secondary px-3 text-black shadow-lg sm:px-5 md:p-6">
           <p>
             I appreciate cooperation with Kacper due to his extensive knowledge
             of the IT labor market, straightforward and specific way of
@@ -124,7 +124,7 @@ const Testimonials = () => {
         </div>
       </div>
       <div className="chat chat-end">
-        <div className="chat-bubble chat-bubble-secondary text-black md:p-6 md:pb-3">
+        <div className="chat-bubble chat-bubble-secondary text-black shadow-lg md:p-6 md:pb-3">
           <p>
             I was cooperating with Kacper on difficult project regarding Backend
             Developer, which was successfully closed. I appreciate cooperation
