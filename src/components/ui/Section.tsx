@@ -11,7 +11,13 @@ const Section = ({
   id?: string;
 }) => {
   return (
-    <section className={cn('mt-16 md:mt-20', classNames)} id={id}>
+    <section
+      className={cn(
+        'mt-16 shrink-0 snap-start snap-always md:mt-20',
+        classNames,
+      )}
+      id={id}
+    >
       {children}
     </section>
   );

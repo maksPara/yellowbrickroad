@@ -1,15 +1,15 @@
 import Heading from './ui/Heading';
 import Section from './ui/Section';
 import livespaceLogo from './../assets/img/livespace-logo.webp';
-import stepstoneLogo from './../assets/img/stepstone-logo.png';
-import ailleronLogo from './../assets/img/ailleron-logo.png';
+// import stepstoneLogo from './../assets/img/stepstone-logo.png';
+// import ailleronLogo from './../assets/img/ailleron-logo.png';
 
 const CaseStudies = () => {
   return (
     <Section id="caseStudies" classNames="scroll-mt-20">
       <Heading text="CASE STUDIES" />
 
-      <div className="flex items-center justify-between">
+      {/* <div className="flex items-center justify-between">
         <p className="text-lg font-bold">Senior ML Ops</p>
         <img
           src={stepstoneLogo}
@@ -84,7 +84,7 @@ const CaseStudies = () => {
             from kick-off to new hire&#39;s day one
           </p>
         </div>
-      </article>
+      </article> */}
 
       <div className="mt-8 flex items-center justify-between lg:mt-12">
         <p className="text-lg font-bold">Growth and stability</p>

@@ -7,7 +7,7 @@ import livespaceLogo from './../assets/img/livespace-logo.webp';
 import silvairLogo from './../assets/img/silvair-logo.png';
 import imgArenaLogo from './../assets/img/imgarena-logo.png';
 import netcreditLogo from './../assets/img/netcredit-logo.webp';
-import wayToGrowLogo from './../assets/img/waytogrow-logo.webp';
+// import wayToGrowLogo from './../assets/img/waytogrow-logo.webp';
 import crazeLogo from './../assets/img/craze-logo.png';
 
 const TrustedUs = () => {
@@ -50,11 +50,11 @@ const TrustedUs = () => {
           alt="Netcredit logo"
           className="duration-500 hover:scale-110"
         />
-        <img
+        {/* <img
           src={wayToGrowLogo}
           alt="Way To Grow logo"
           className="duration-500 hover:scale-110"
-        />
+        /> */}
         <img
           src={crazeLogo}
           alt="Craze logo"

@@ -3,7 +3,7 @@ import CaseStudies from '../components/CaseStudies';
 import Contact from '../components/Contact';
 import OurNumbers from '../components/OurNumbers';
 import OurService from '../components/OurService';
-import Pricing from '../components/Pricing';
+// import Pricing from '../components/Pricing';
 import Problem from '../components/Problem';
 import Solution from '../components/Solution';
 import Testimonials from '../components/Testimonials';
@@ -13,7 +13,7 @@ import OurTeam from '../components/OurTeam';
 
 const HomePage = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex snap-y snap-mandatory flex-col items-center overflow-x-hidden">
       <main className="max-w-screen-3xl flex-grow bg-amber-50 p-3 sm:p-4 md:p-6 xl:p-10">
         <About />
         <p className="pt-16 text-xl">
@@ -26,7 +26,7 @@ const HomePage = () => {
         <OurNumbers />
         <OurService />
         <WayOfWork />
-        <Pricing />
+        {/* <Pricing /> */}
         <TrustedUs />
         <CaseStudies />
         <Testimonials />

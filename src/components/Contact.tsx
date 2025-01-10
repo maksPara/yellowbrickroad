@@ -1,3 +1,5 @@
+import linkedInLogo from '../assets/img/linkedIn-logo.png';
+
 const Contact = () => {
   return (
     <div className="flex scroll-mt-20 flex-col sm:flex-row" id="contact">
@@ -24,6 +26,9 @@ const Contact = () => {
           className="link font-bold sm:text-lg"
         >
           book a meeting
+        </a>
+        <a href="https://www.linkedin.com/company/ybrd/">
+          <img src={linkedInLogo} alt="linkedIn logo" className="size-8" />
         </a>
       </div>
     </div>
