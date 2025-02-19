@@ -9,3 +9,5 @@ Used technologies:
 - Tailwind CSS
 - DaisyUI
 - Vite
+
+To run the project `git clone`, navigate to repo, `npm i` and `npm run dev`
